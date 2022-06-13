@@ -1,3 +1,4 @@
+
 long_diagonal = 0
 short_diagonal = 0
 length = 0
