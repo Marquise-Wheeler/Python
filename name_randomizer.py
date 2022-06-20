@@ -8,7 +8,7 @@ import random
 import string
 
 # Assign.Initialize  variables
-letters = string.ascii_lowercase                                        # used to generate random lowercase strings.
+characters = string.ascii_lowercase                                        # used to generate random lowercase strings.
 env_names = []                                                          # empty dictionary to store instance names.                     
 num = 0                                                                 # initialized variable to track iterations.
 instances = int(input('How many instances do you need names for? '))    # Prompt user input of # names.
@@ -24,14 +24,3 @@ while (num < instances):
     env_names.append(uniq_name)                                         # Add names to the list.
 
 print(env_names)
-
-  
-# IDEAS TO IMPROVE THE CODE
-# Write the names to a file. If the name exists create a different name.
-# Print a list of names to use.
-
-# ADVANCED
-# Add validation so only allowd groups can use the code by querng the user as to which department they work in
-
-# COMPLEX
-# Turn the code into a function 
