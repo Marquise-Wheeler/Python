@@ -9,11 +9,24 @@ print('String Concatenation is done with the "+" sign.')
 print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
 
-# Day-1 Ex.3 -- accepting input from user and counting characters
+# Day-1 Ex.3-1 -- accepting input from user and counting characters
 name = input("What is your name?")
 print(len(name))
 
-# Day-1 Ex.4 -- Using concatenate and input together
+# Day-1 Ex.3-2 -- Using concatenate and input together
 print("Hello " + input("What is your name?"))
 
-# Adding comment to test push
+# Day-1 Ex.4 -- Working with variables
+# take the following inputs and reverse them 
+a = input("a: ")
+b = input("b: ")
+
+####################
+#The code to reverse the variables is here
+c = a  # assign a new variable to hold the value of a
+a = b
+b = c
+# the code to reverse the order the variables are printed is as follows
+print("a: " + a)
+print("b: " + b)
+
