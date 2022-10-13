@@ -1,1 +1,15 @@
+# Day-1 Ex.1 -- getting familiar with the print function.
+print('Day 1 - Python Print Function')
+print("The function is declared like this:")
+print("print('what to print')")
+
+# Day-1 Ex.2 -- basic string manipulation
+print("Day 1 - String Manipulation")
+print('String Concatenation is done with the "+" sign.')
+print('e.g. print("Hello " + "world")')
+print("New lines can be created with a backslash and n.")
+
+# Day-1 Ex.3 -- accepting input from user and counting characters
+name = input("What is your name?")
+print(len(name))
 
