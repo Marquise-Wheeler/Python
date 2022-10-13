@@ -13,3 +13,5 @@ print("New lines can be created with a backslash and n.")
 name = input("What is your name?")
 print(len(name))
 
+# Day-1 Ex.4 -- Using concatenate and input together
+print("Hello " + input("What is your name?"))
