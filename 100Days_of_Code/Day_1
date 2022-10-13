@@ -26,6 +26,8 @@ b = input("b: ")
 c = a  # assign a new variable to hold the value of a
 a = b
 b = c
+####################
+
 # the code to reverse the order the variables are printed is as follows
 print("a: " + a)
 print("b: " + b)
