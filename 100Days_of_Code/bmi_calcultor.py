@@ -6,12 +6,12 @@ weight = input("enter your weight in kg: ")
 #Write your code below this line 👇
 
 # Verify variable types
-print(type(height))
-print(type(weight))
+# print(type(height))
+# print(type(weight))
 
 # Convert variables and perform calculations
 bmi = int(weight) / float(height) ** 2
 
 #Declare new variable to hold bmi_integer
 bmi_integer = int(bmi)
-print(bmi)
+print(f"Your current BMI is : {bmi_integer}")
