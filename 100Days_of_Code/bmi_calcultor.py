@@ -14,4 +14,5 @@ bmi = int(weight) / float(height) ** 2
 
 #Declare new variable to hold bmi_integer
 bmi_integer = int(bmi)
-print(f"Your current BMI is : {bmi_integer}")
+print("Your current BMI is : " + str(bmi_integer))   # String concatenation
+print(f"Your current BMI is : {bmi_integer}")        # f-string
