@@ -13,7 +13,7 @@
 print("Welocme to the tip calculator.")
 
 friends = input("How many people will split the bill?\n")
-tip = input("What percentage tip would you like to give 10, 15, or 20%?\n" )
+tip = input("What percentage tip would you like to give? 10, 15, or 20%?\n" )
 tip_integer = int(tip) / 100
 #print(tip_integer)
 bill = input("How much is the bill?\n" )
