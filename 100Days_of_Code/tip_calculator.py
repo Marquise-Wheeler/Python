@@ -1,8 +1,19 @@
-# This purpose of this rogram is to cacuate tips.
+#!/usr/bin/env python3
+print("Welcome to the tip calculator.")
 
-print("Welocme to the tip calculator.")
-bill = input("What was the total bill?\n")
-friends = input("How many peope to split the bill?\n" )
-tip = Input("What percentage tip would you like to give?\n" )
-split = (((bill * tip) + bill) / 5)
-print("Each person should pay:" )
+# User input
+bill = input("How much is the bill?\n" )
+tip = input("What percentage tip would you like to give? 10, 15, or 20%?\n" )
+friends = input("How many people will split the bill?\n")
+
+# Calculations
+tip_integer = int(tip) / 100
+total_bill = float(bill) * float(1 + tip_integer)
+friends_integer= int(friends)
+cost_person = total_bill / friends_integer
+format_cost_person = "{:.2f}".format(cost_person)
+
+# Print statement
+print(f"The total cost per person is ${format_cost_person}")
+
+# End of file
