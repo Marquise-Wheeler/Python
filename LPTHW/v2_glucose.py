@@ -17,4 +17,6 @@ average = sum(data_list) / len(data_list)
 x = 1
 print("Your modified list is: " + str(data_list))
 print("Your average is %.2f" % average)
+
+# Function call
 list_modifier(data_list)
