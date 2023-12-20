@@ -1,6 +1,10 @@
 # python file to calculate the average glucose for the day
 
 #================New Program starts here================
+from datetime import date
+
+today = date.today()
+
 userInput = input("Please enter your results separated by commas: \n") 
 userList = userInput.split(",")
 try:
@@ -10,6 +14,8 @@ except ValueError:
 
 
 def list_modifier(data_list):
+#Open the text.txt file in write mode.
+
     """Print the original list, average said list, modify it as needed, and then print again."""
 print("Your list is: " + userInput)
 average = sum(data_list) / len(data_list) 
@@ -17,4 +23,12 @@ average = sum(data_list) / len(data_list)
 x = 1
 print("Your modified list is: " + str(data_list))
 print("Your average is %.2f" % average)
+print("Your average for " + str(today) + " is " + str(average))
+file1 = open('glucose_results.py', 'a')
+file1.write("Your average is : ")
+file1.write('\n')
+file1.write(str(average))
+
 list_modifier(data_list)
+
+

@@ -1,14 +1,8 @@
-2023-03-29
-1002023-03-29
-1382023-03-29
-402023-03-29
-1202023-03-29
-98
-2023-03-29
-110
-2023-03-29
-138
-2023-03-30
-88
-2023-03-30
-100
+
+Your average is %s %s average 
+Your average is %s %s average 
+93.0Your average is : average 
+88.0
+Your average is : 
+82.5Your average is : 
+161.30769230769232
