@@ -1,0 +1,9 @@
+google.com
+renaissanceobserver.com
+netflix.com:
+marquisewheeler.com
+techrescuesolutions.com
+www.this-is-to-simulate-a-broken-site.com
+this-is-to-simulate-a-broken-site.com
+this-is-to-simulate-a-broken-site
+ping.com

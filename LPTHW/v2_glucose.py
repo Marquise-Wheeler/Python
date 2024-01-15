@@ -23,12 +23,17 @@ average = sum(data_list) / len(data_list)
 x = 1
 print("Your modified list is: " + str(data_list))
 print("Your average is %.2f" % average)
+<<<<<<< HEAD
 print("Your average for " + str(today) + " is " + str(average))
 file1 = open('glucose_results.py', 'a')
 file1.write("Your average is : ")
 file1.write('\n')
 file1.write(str(average))
 
+=======
+
+# Function call
+>>>>>>> feca142e28bb24f827e5631cb35f2b062d52da6d
 list_modifier(data_list)
 
 

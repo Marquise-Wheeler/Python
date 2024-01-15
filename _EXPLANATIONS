@@ -1,0 +1,27 @@
+
+In Python, self is a convention and a special variable used inside class methods to refer to the instance of the class. It is the first parameter of instance methods, and it represents the instance on which the method is called. While self is a convention and not a strict requirement (you could use any other name, but it's strongly recommended to use self for clarity), it is widely adopted and helps in writing clean and readable object-oriented code.
+
+Here's a more detailed explanation of self in Python:
+
+Instance Reference:
+
+When you create an instance of a class, such as obj = MyClass(), self refers to that specific instance (obj in this case).
+Each instance of a class has its own set of attributes and methods, and self allows you to access and modify these instance-specific properties.
+Accessing Instance Variables:
+
+self is used to access instance variables within a class. Instance variables are attributes that belong to a specific instance of the class.
+For example, if you have an instance variable self.name, you can access it using self.name within the class methods.
+Calling Other Methods:
+
+self is used to call other methods within the same class. This is important for methods to interact with each other and share information within the instance.
+For example, if you have a method def method1(self):, you can call another method using self.method2().
+Parameter in Instance Methods:
+
+In the method definition, the first parameter is conventionally named self, though you could technically use any name. However, using self is a widely followed convention in the Python community, and it helps make the code more readable and understandable.
+No Special Keyword:
+
+Unlike some other object-oriented languages (e.g., Java or C++), Python doesn't have a special keyword like this to refer to the current instance. Instead, it relies on the use of self.
+Instance Methods vs. Class Methods:
+
+Instance methods, which use self, operate on instances of the class and can access and modify instance variables.
+Class methods use cls (conventionally named, short for "class") instead of self and operate on the class itself rather than instances.
